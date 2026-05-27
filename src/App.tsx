@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react";
 import { Sidebar, ScrollProgress, BackToTop } from "@/components/Layout";
 import { CommandPalette } from "@/components/CommandPalette";
 import { AnimatedGrid, FloatingParticles } from "@/components/AnimatedBackground";
@@ -52,6 +53,9 @@ export default function App() {
 
         {/* Back to top button */}
         <BackToTop />
+
+        {/* Vercel Web Analytics */}
+        <Analytics />
       </div>
     </HashRouter>
   );
