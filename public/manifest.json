@@ -1,0 +1,16 @@
+{
+  "name": "Rudranil Roy — DevOS",
+  "short_name": "DevOS",
+  "description": "A premium developer operating system and project hub.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%236366f1' rx='20' width='100' height='100'/><text x='50' y='68' text-anchor='middle' fill='white' font-size='48' font-family='monospace'>R</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
